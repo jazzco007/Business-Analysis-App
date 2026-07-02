@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@media print {
+  @page {
+    margin: 0; /* ဤစာကြောင်းက Browser ၏ Header နှင့် Footer ကို ဖျောက်ပေးပါသည် */
+  }
+  body {
+    padding: 1.5cm; /* ဘောက်ချာ စာရွက်အစွန်းနှင့် အရမ်းမကပ်သွားစေရန် ဘေးဘောင်ချန်ပေးခြင်း ဖြစ်သည် */
+  }
+}
